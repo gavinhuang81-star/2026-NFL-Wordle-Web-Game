@@ -696,4 +696,4 @@ def instructions(state: State) -> Page:
 # Start Server
 
 # Set developer_mode to False before publishing.
-start_server(State(0,"",[],False,"",False,load_players(),True))
+start_server(State(0,"",[],False,"",False,load_players(),False))
