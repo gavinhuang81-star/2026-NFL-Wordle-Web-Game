@@ -670,7 +670,7 @@ def instructions(state: State) -> Page:
             "2. Select a player from the search results.",
             "3. Submit your guess.",
             "4. Compare your guess with the mystery player.",
-            Header("Game Modes")
+            Header("Game Modes"),
             "Normal Mode: 6 guesses and 7 categories.",
             "Hard Mode: 4 guesses and 3 categories.",
             Header("Normal Mode Categories"),
