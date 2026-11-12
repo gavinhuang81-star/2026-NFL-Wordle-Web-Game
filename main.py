@@ -491,7 +491,7 @@ def display_guess(guess_info: Guess):
     boxes = []
     for result in guess_info.results:
         boxes.append(make_result_box(result))
-    return Div(*boxes)
+    return Row(*boxes)
 
 
 # -------------------------
